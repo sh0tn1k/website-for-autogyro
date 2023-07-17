@@ -1,0 +1,26 @@
+# robots.txt for http://autogyro-izhevsk.com/
+
+User-agent: *
+Host: http://autogyro-izhevsk.com/
+Allow: /
+Disallow: /admin/login
+Allow: /sitemap.xml
+Disallow: /admin
+Disallow: /admin/2a524880b4d504a3da21007051e59146.php
+Disallow: /admin/76ea0bebb3c22822b4f0dd9c9fd021c5.php
+Disallow: /index.php/site-en/tango-2/galereya-2
+Disallow: /index.php/
+Disallow: /index.php/tango/galereya
+Disallow: /index.php/site-en/o-joomla-6
+Disallow: /index.php/filin/galereya
+Disallow: /index.php/site-en/
+Disallow: /index.php/site-ru/filin
+Disallow: /index.php/filin/galereya/category/2-filin
+Disallow: /index.php/tango/galereya/1-tango/detail/4-4?tmpl=component&phocadownload=2
+Disallow: /f/aq
+Disallow: /index.php/tango
+Disallow: /index.php/tango-trevel
+Disallow: /index.php/site-en/katalog-2
+Disallow: /index.php/site-en/filin-2/galereya-2
+Disallow: /index.php/component/users/?view=reset
+Sitemap: http://autogyro-izhevsk.com/sitemap.xml

@@ -1,0 +1,1 @@
+const images=document.querySelectorAll("img"),options={root:null,rootMargin:"0px",threshold:.1};function handleImg(a,b){a.forEach(a=>{a.intersectionRatio>0&&loadImage(a.target)})}function loadImage(a){a.src=a.getAttribute("data")}const observer=new IntersectionObserver(handleImg,options);images.forEach(a=>{observer.observe(a)})
